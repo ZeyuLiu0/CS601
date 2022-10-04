@@ -1,0 +1,153 @@
+.orange{
+    width: 100%;
+    height: 100px;
+    margin: 5px;
+    background-color: orange;
+}
+.green{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    margin: 5px;
+}
+.blue{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+}
+.grey{
+    width: 100%;
+    height: 100px;
+
+    margin: 5px;
+    background-color: grey;
+}
+header{
+    display: flex;
+}
+section{
+    display: flex;
+}
+
+@media (min-width: 320px) {
+    .orange{
+        width: 100%;
+        height: 100px;
+        background-color: orange;
+        margin: 5px;
+    }
+    .green{
+        width: 100%;
+        height: 150px;
+        background-color: green;
+        margin: 5px;
+    }
+    .blue{
+        width: 100%;
+        height: 300px;
+        background-color: blue;
+        margin: 5px;
+    }
+    .grey{
+        width: 100%;
+        height: 100px;
+        margin: 5px;
+        background-color: grey;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .orange{
+        width: 100%;
+        height: 100px;
+        background-color: orange;
+        margin: 5px;
+    }
+    .green{
+        width: 100%;
+        height: 300px;
+        background-color: green;
+        margin: 5px;
+    }
+    .blue{
+        width: 100%;
+        height: 100px;
+        background-color: blue;
+        margin: 5px;
+    }
+    .grey{
+        width: 100%;
+        height: 100px;
+        margin: 5px;
+        background-color: grey;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .first{
+        display: flex;
+    }
+    .second{
+        display: flex;
+    }
+}
+
+
+@media (min-width: 1024px) {
+
+    .orange{
+        width: 100%;
+        height: 100px;
+        background-color: orange;
+        margin: 5px;
+    }
+    .green{
+        width: 100%;
+        height: 400px;
+        background-color: green;
+        margin: 5px;
+    }
+    .blue{
+        width: 100%;
+        height: 300px;
+        background-color: blue;
+        margin: 5px;
+    }
+    .grey{
+        width: 100%;
+        height: 100px;
+        margin: 5px;
+        background-color: grey;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+    }
+    .first{
+        width: 100%;;
+        display: flex;
+    }
+    .second{
+        width: 100%;
+        display: flex;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+    }
+}
